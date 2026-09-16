@@ -158,4 +158,4 @@ jobs:
     # Logout from Azure for security (runs even if image push fails)
     - name: Logout from Azure
       run: az logout
-      if: always()
+      if: always()# trigger CI run
