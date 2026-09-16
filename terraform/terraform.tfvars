@@ -1,11 +1,8 @@
 location            = "Australia East"
 resource_group_name = "koalatech-week07-rg"
 
-# Replace with a unique name for your Azure Container Registry 
-acr_name             = "UNIQUE_ACR_NAME"
-
-# Replace with a unique name for your Azure Storage Account
-storage_account_name = "STORAGE_ACCOUNT_NAME"
+acr_name             = "acrs225010182w07"
+storage_account_name = "stors225010182w07"
 
 environment = "development"
 
