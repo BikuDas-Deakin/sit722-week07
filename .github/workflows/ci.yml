@@ -1,13 +1,10 @@
 name: CI Pipeline
 
 on:
-  # Manual trigger for the workflow
-  workflow_dispatch:
-
-  # Automatically trigger on pushes to main
   push:
     branches:
       - main
+  workflow_dispatch:
 
 
 jobs:
